@@ -1,6 +1,6 @@
 first:
     - need to set GO111MODULE="on"  -> to enable this proccess
-    - go mod init https://github.com/milkywoosh/gomod_basic_math (create in github)
+    - go mod init github.com/milkywoosh/gomod_basic_math (create in github)
     - bebas locate any directory: gak harus ditaruh di sesuai GOPATH   
     - create new repo module in github: github.com/milkywoosh/gomod_basic_math
     - set module name :
