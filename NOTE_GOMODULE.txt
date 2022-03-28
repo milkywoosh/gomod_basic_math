@@ -5,5 +5,12 @@ first:
     - create new repo module in github: github.com/milkywoosh/gomod_basic_math
     - set module name :
         -> go mod init github.com/milkywoosh/gomod_basic_math  --> creating go.mod file
+    
+    - rilis version:
+        -> git tag v1.0.0
+    - add new dependency :
+        -> go get nama-module (dependency name from github)
+        -> so wee need internet connection
         
+
 
