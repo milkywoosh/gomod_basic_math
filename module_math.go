@@ -22,3 +22,7 @@ func Math_divide(value int, divider int) int {
 	}
 	return value / divider
 }
+
+func Math_modulo(value int, mod int) int {
+	return value % mod
+}

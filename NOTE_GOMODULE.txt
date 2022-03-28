@@ -11,6 +11,8 @@ first:
     - add new dependency :
         -> go get nama-module (dependency name from github)
         -> so wee need internet connection
+    - update module :
+        -> go get -u github.com/milkywoosh/gomod_basic_math     
         
 
 
