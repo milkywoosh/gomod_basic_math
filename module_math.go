@@ -16,3 +16,9 @@ func Math_power(value float64, pow int) int {
 	}
 	return int(value)
 }
+func Math_divide(value int, divider int) int {
+	if divider > value {
+		return 0
+	}
+	return value / divider
+}
