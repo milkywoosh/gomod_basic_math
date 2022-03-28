@@ -10,8 +10,9 @@ func Math_add(data ...int) (result int) {
 
 func Math_power(value float64, pow int) int {
 	tmp := value
-	for i := pow; i > 1; i-- {
+	for pow > 1 {
 		value *= tmp
+		pow--
 	}
 	return int(value)
 }
