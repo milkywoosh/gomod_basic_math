@@ -7,3 +7,10 @@ func Math_add(data ...int) (result int) {
 	}
 	return result
 }
+
+func Math_power(value float64, pow int) int {
+	for i := pow; i > 1; i-- {
+		value *= value
+	}
+	return int(value)
+}
